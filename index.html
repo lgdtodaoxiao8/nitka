@@ -3,11 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Мой Сайт</title>
-    <script type="module" crossorigin src="/assets/index-CRTWupHa.js"></script>
+    <meta name="description" content="NÏTKA — ручная вязка, малые тиражи. Брелоки, шарфы, броши и аксессуары. Каждое изделие создаётся вручную." />
+    <meta name="theme-color" content="#FAF6F1" />
+    <meta property="og:title" content="NÏTKA — Ручная вязка" />
+    <meta property="og:description" content="Вязаные аксессуары ручной работы. Брелоки, шарфы, броши и украшения." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>NÏTKA — Ручная вязка</title>
+    <!-- Prevents flash of wrong theme on load -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("nitka_theme");
+          document.documentElement.setAttribute("data-theme", t ? JSON.parse(t) : "light");
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-DL0ntGW8.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BRMvwdpa.css">
   </head>
   <body>
     <div id="root"></div>
-    <!-- Эта строка связывает HTML с твоим кодом -->
   </body>
 </html>

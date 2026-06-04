@@ -5,4 +5,4 @@ Disallow: /admin-login
 Disallow: /checkout
 Disallow: /success
 
-Sitemap: https://my-app-nitka.vercel.app/sitemap.xml
+Sitemap: https://nitka.click/sitemap.xml

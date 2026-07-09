@@ -6,7 +6,7 @@ deployed on Vercel.
 
 ## About
 
-Active URL - 'https://nitka.click/'
+Active URL - https://nitka.click/
 
 - Single-page site presenting the brand and its handmade products
 - Clean, lightweight front end — loads fast
